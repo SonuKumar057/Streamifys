@@ -30,7 +30,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/chat", chatRoutes);
 
 app.get("/",(req,res)=>{
-  res.send("App is working");
+  res.send("Now App is working Correctly");
 })
 
 if (process.env.NODE_ENV === "production") {
